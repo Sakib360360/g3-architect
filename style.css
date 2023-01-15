@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
 }
 /* colors and other variables that will be used throughout the web site */
 :root{
@@ -43,7 +44,8 @@ nav{
     margin: 50px auto;
 }
 .header-info h1{
-    text-align: center;
+    font-weight: 800;
+    font-size: 2.5rem;
 }
 .header-info p{
     text-align: center;
@@ -58,6 +60,7 @@ nav{
     border-radius: 5px;
     color: white;
     margin-bottom: 4rem;
+    cursor: pointer;
 }
 .header-image{
     margin: 0 auto;
@@ -97,4 +100,192 @@ nav{
 }
 .feature-text p{
     margin-top: 1rem;
+}
+
+/* feature description section */
+.feature-description{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 2rem auto;
+    
+}
+.feature-container{
+    position: relative;
+}
+.left-des{
+    width: 450px;
+}
+.left-des h1{
+    border-left: 3px solid var(--btn-background-color);
+    padding-left: 10px;
+    margin-bottom: 1rem;
+}
+.left-des p{
+    color: var(--p-text-color);
+    font-size: 14px;
+    margin-bottom: 1rem;
+}
+.feture {
+    border-radius: 5px;
+    box-shadow: 0px 0px 9px -4px rgb(173 162 162 / 61%);
+    margin: 0.9rem 0px;
+    border: none;
+    padding: 14px 18px;
+}
+.feture h5 {
+    font-weight: 800;
+    font-size: 15px;
+    margin-bottom: 0.5rem;
+}
+.feture p{
+    font-size: 13px;
+}
+.right-des {
+    display: flex;
+    justify-content: end;
+}
+.right-des img {
+    width: 90%;
+    height: 90%;
+    margin-top: 2rem;
+}
+.btn-special-stle {
+    font-size: 28px;
+    font-weight: 800;
+}
+.experience-btn {
+    position: absolute;
+    top: 87%;
+    width: 8rem;
+    height: 5rem;
+    left: 50%;
+}
+
+/* fact section style */
+.fact-container {
+    width: 80%;
+    margin: 6rem auto;
+}
+.fact-container>h1 {
+    font-size: 26px;
+    font-weight: bolder;
+    margin-bottom: 1.2rem;
+}
+.fact-container>p {
+    font-size: 12px;
+    width: 40%;
+}
+.fact-card-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5rem;
+    flex-wrap: wrap;
+}
+.card {
+    border: 1px solid var(--btn-background-color);
+    border-radius: 5px;
+    width: 125px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card img{
+    width: 30%;
+    margin-top: 1rem;
+    margin-bottom: .4rem;
+}
+.card h1{
+
+}
+.card p {
+    font-size: 13px;
+    margin: 0.5rem auto;
+    margin-bottom: 1.9rem;
+}
+/* sponsors section */
+.sponson-container {
+    width: 80%;
+    margin: 5rem auto;
+}
+.sponson-container>h1 {
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+}
+.sponson-container>p {
+    width: 50%;
+    margin: 1.5rem auto;
+    text-align: center;
+    font-size: 12px;
+}
+.sponsors {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.sponsor-img img {
+    width: 95px;
+    filter: grayscale(100%);
+}
+
+/* footer */
+.footer {
+    padding:50px 0;
+    color:#f0f9ff;
+    background-color:#282d32;
+  }
+  .footer-flex{
+    display: flex;
+  }
+  .services{
+    width: 250px;
+  }
+  .about{
+    width: 300px;
+  }
+  .company{
+    width: 500px;
+  }
+  .company>p {
+    font-size: 12px;
+    font-weight: 100;
+}
+  .footer-container{
+    width: 80%;
+    margin: 1rem auto;
+  }
+  .footer h3 {
+    margin-top:0;
+    margin-bottom:12px;
+    font-weight:bold;
+    font-size:16px;
+  }
+  
+  .footer ul {
+    padding:0;
+    list-style:none;
+    line-height:1.6;
+    font-size:14px;
+    margin-bottom:0;
+  }
+  
+  .footer ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.6;
+  }
+  
+  .footer ul a:hover {
+    opacity:0.8;
+  }
+  .copyright {
+    background-color: #FFF4E7;
+    color: black;
+    width: 80%;
+    text-align: center;
+    padding: 1rem 0.5rem;
+    margin: 2rem auto;
+    border-radius: 25px;
 }
