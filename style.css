@@ -484,11 +484,13 @@ nav{
 .fact-container>h1 {
     font-size: 26px;
     font-weight: bolder;
+    text-align: center;
     margin-bottom: 1.2rem;
 }
 .fact-container>p {
     font-size: 12px;
-    width: 40%;
+    width: 100%;
+    text-align: center;
 }
 .fact-card-container{
     display: flex;
@@ -556,18 +558,19 @@ nav{
     color:#f0f9ff;
     background-color:#282d32;
   }
-  .footer-flex{
+  .footer-flex {
     display: flex;
-  }
+    flex-direction: column;
+}
   .services{
     width: 250px;
   }
   .about{
     width: 300px;
   }
-  .company{
-    width: 500px;
-  }
+  .company {
+    width: 300px;
+}
   .company>p {
     font-size: 12px;
     font-weight: 100;
@@ -601,9 +604,10 @@ nav{
     opacity:0.8;
   }
   .copyright {
-    background-color: #FFF4E7;
-    color: black;
-    width: 80%;
+    background-color: #8f7b6400;
+    color: white;
+    font-size: 8px;
+    width: 100%;
     text-align: center;
     padding: 1rem 0.5rem;
     margin: 2rem auto;
